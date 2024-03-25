@@ -1,11 +1,14 @@
 const removeFromArray = function(array, argument) {
     const newArray = [];
-    /*
-    if (item != argument) {
-        newArray.push(item);
-    }
+
+    array.forEach(element => {
+        if (element != argument) {
+            newArray.push(element)
+        }
+    });
+
     return newArray;
-    */
+
 };
 
 // Do not edit below this line
