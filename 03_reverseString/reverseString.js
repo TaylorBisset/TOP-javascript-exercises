@@ -1,7 +1,7 @@
-let reversedString = "";
 const reverseString = function(wordToReverse) {
+    let reversedString = "";
     for (let i = wordToReverse.length - 1; i >= 0; i--) {
-        reversedString = reversedString + wordToReverse.charAt(i);
+        reversedString += wordToReverse[i];
     }
     return reversedString;
 };
