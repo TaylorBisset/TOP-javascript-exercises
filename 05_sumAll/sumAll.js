@@ -1,8 +1,15 @@
 const sumAll = function(num1, num2) {
     let sumOfAll = 0;
-    for (i = num1; i <= num2; i++) {
-        sumOfAll += i;
+    if (num1 <= num2) {
+        for (i = num1; i <= num2; i++) {
+            sumOfAll += i;
+        }
+    } else {
+        for (i = num2; i <= num1; i++) {
+            sumOfAll += i;
+        }
     }
+    
     return sumOfAll;
 };
 
